@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Proiect final</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../images/9logo.png">
+    <script src="../js/main.js"></script>
+</head>
+
+<body class="noutatea">
+    <header class="antet">
+        <img class="antet-logo" src="../images/9.png" alt="Logoul siteului">
+        <div id="navbar" class="nav">
+            <a href="../index.html">Pagina principală</a>
+            <a href="prezentare-generala.html">Prezentare generală</a>
+            <a href="simboluri.html">Simbolurile orașului</a>
+            <a href="orasul-imagini.html">Orașul în imagini</a>
+            <a href="personalitati.html">Personalități marcante</a>
+            <a href="atractii.html">Atracții turistice</a>
+            <a href="contacte.html" class="active">Contacte</a>
+            <a id="hamburger-menu" onclick="mobileMenu()"><i class="fa fa-bars"></i></a>
+        </div>
+    </header>
+
+    <div class="page-container">
+
+        <main>
+            <h1 class="title">Contacte</h1>
+            <div class="row">
+                <div class="col-50">
+                    <h3>Date de contact</h3>
+                    <ul class="contact-list">
+                        <li><b>Adresa:</b> MD-3600 Ungheni, str. Naţională 7, Republica Moldova</li>
+                        <li><b>Telefon:</b> +373 236 22577</li>
+                        <li><b>Fax:</b> +373 236 22577</li>
+                        <li><b>E-mail:</b> anticameraprimaria@gmail.com</li>
+                    </ul>
+                    <div class="contact-form">
+                        <form>
+                            <h3 class="centered">Lasă un mesaj</h3>
+                            <input type="text" placeholder="Nume" required>
+                            <input type="email" placeholder="Email" required>
+                            <textarea rows="3" placeholder="Mesaj" required></textarea>
+                            <input type="submit" value="Transmite">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43366.05531163164!2d27.75857846261545!3d47.20917671490817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb0046bfd84557%3A0xe00e3fbbb82475b7!2sUngheni!5e0!3m2!1sro!2s!4v1579182853874!5m2!1sro!2s"
+                        frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="centered footer-info">
+            <b>
+                <span>Creat de: </span>
+                <span>Beșliu Mădălina</span>
+            </b>
+        </div>
+    </footer>
+</body>
+
+</html>
